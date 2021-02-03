@@ -1,0 +1,93 @@
+.aboutMe {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutMe::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    height: 100vw;
+    width: 100%;
+    background-color: royalblue;
+    transform: rotate(30deg);
+}
+
+.aboutMe__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.aboutMe__title {
+    font-size: 2rem;
+}
+
+.aboutMe__title--special {
+    color: royalblue;
+}
+
+.aboutMe__paragraph {
+    width: 50%;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    line-height: 2.5rem;
+    color: #808080;
+}
+
+.aboutMe__paragraph--special {
+    color: royalblue
+}
+
+.aboutMe__awards {
+    width: 100%;
+    background-color: rgba(201, 201, 201, 0.247);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.aboutMe__awardtTitle {
+    font-size: 1.5rem;
+    margin: 10px
+}
+
+.aboutMe__award {
+    padding: 20px;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.aboutMe__award::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+.aboutMe__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 300px;
+    height: 500px;
+}
+
+.aboutMe__photo{
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    z-index: 2;
+}
