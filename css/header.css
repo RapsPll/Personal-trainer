@@ -1,9 +1,35 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 30px
+    padding: 0 30px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: royalblue;
+    margin: 0px 0 20px;
+}
+
+.title__logo {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+}
+
+.title__surname {
+    margin: -15px;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+.navigation {
+    padding-left: 150px;
 }
 
 .navigation__list {
@@ -11,22 +37,28 @@
     align-items: center;
     gap: 10px;
     list-style: none;
+    padding-left: 0px;
 }
 
 .navigation__listItem {
-    padding-bottom: 5px;
-    transition: 5s linear;
-
 }
 
 .navigation__listItem:hover {
-    border-bottom: 1px solid black;
-    transition: 5s linear;
 
 }
+
 .navigation__link {
     color: black;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    transition: .2s linear;
+    padding: 5px;
+}
+
+.navigation__listItem:hover .navigation__link {
+    color: #fff;
+    background-color: royalblue;
 }
 
 .shopIcon {
@@ -56,4 +88,3 @@
     transition: .2s linear;
 
 }
-
