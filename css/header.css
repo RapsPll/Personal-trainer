@@ -4,8 +4,10 @@
     align-items: center;
     width: 100%;
     padding: 0 30px;
-    position: fixed;
+    position: sticky;
+    top: 0px;
     background-color: rgba(255, 255, 255, 0.774);
+    z-index: 99;
 }
 
 .title {
@@ -14,7 +16,8 @@
     justify-content: center;
     align-items: center;
     outline: royalblue;
-    margin: 0px 0 20px;
+    margin: 0px 0 20px; 
+    cursor: pointer;
 }
 
 .title__logo {
@@ -29,7 +32,8 @@
     padding: 5px;
 }
 .navigation {
-    padding-left: 150px;
+    padding-left: 75px;
+    padding-right: 30px;
 }
 
 .navigation__list {
@@ -38,13 +42,6 @@
     gap: 10px;
     list-style: none;
     padding-left: 0px;
-}
-
-.navigation__listItem {
-}
-
-.navigation__listItem:hover {
-
 }
 
 .navigation__link {

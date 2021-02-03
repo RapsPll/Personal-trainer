@@ -1,8 +1,9 @@
 .intro {
     width: 100%;
-    height: 50vw;
-    background-image: url(/img/people-2604149_1920.jpg);
+    height: 40vw;
+    background-image: url(/img/sport-2264825_1920.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,6 +28,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     font-size: 2.5rem;
 }
 
 .intro__titleSpan--special {
@@ -35,22 +37,32 @@
 
 .intro__paragraph {
     margin : 0;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
     z-index: 1;
     color: #fff;
+    font-size: 3rem;
 }
 
 .intro__button {
-    width: 120px;
+    width: 200px;
     height: 50px;
     z-index: 1;
+    color: #fff;
+    background-color: royalblue;
+    border: none;
+    font-size: 1.1rem;
 }
 
 .intro__rules{
     z-index: 1;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.616);
     font-size: 2.3rem;
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
+    gap: 20px;
 }
