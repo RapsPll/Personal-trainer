@@ -1,0 +1,50 @@
+.contact__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact__title--special {
+    color: royalblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.form__input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid royalblue;
+    font-size: 1.1rem;
+}
+
+.form__area {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid royalblue;
+    resize: none;
+}
+
+.form__input:focus, 
+.form__area:focus {
+    outline: none;
+    font-size: 0.9rem;
+    padding: 12px;
+}
+.form__area:focus {
+    padding: 4px;
+}
+
+.form__button {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: royalblue;
+    color: #fff;
+    margin-top: 30px;
+    width: 25%;
+}
