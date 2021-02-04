@@ -1,10 +1,9 @@
-.offer {
 
-}
 
 .offer__title {
     text-align: center;
     font-size: 2rem;
+    margin: 40px 0;
 }
 
 .offer__title--special{
@@ -13,7 +12,7 @@
 
 
 .offer__box {
-    width: 70%;
+    width: 80%;
     color: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,7 +45,6 @@
     flex-wrap: wrap;
     flex-basis: 65%;
     padding-bottom: 20px;
-    
 }
 
 .offer__boxPartImage {
